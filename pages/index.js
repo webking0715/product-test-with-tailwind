@@ -86,19 +86,19 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Test Project</title>
+        <title>Test Project by Ivars</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-5xl font-bold">
-          Test Project for Product Chart
+          Test Project for Product Chart By Ivars
         </h1>
 
-        <div className="border bg-primary my-12 py-4 px-20">
+        <div className="border bg-primary mt-12 mb-4 py-4 px-20">
           <h2 className="text-4xl ">Date Range</h2>
 
-          <div className="flex py-10">
+          <div className="flex pt-4">
             <div className="date-picker with-50 flex items-center justify-between">
               <h3 className="text-2xl text-left mr-4">Start Date</h3>
               <DatePicker

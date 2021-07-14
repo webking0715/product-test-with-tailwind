@@ -52,7 +52,7 @@ export default function Chart({label, pData, borderColor, title}) {
 
   };
     return (
-    <div className="chart width-80">
+    <div className="chart width-60">
       <Line data={data} />
     </div>
   );
