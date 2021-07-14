@@ -1,0 +1,28 @@
+/** Import TailwindCSS **/
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.width-80 {
+	width: 80%;
+}
+
+.btn {
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 0.5rem 2rem;
+	margin: 1rem 3rem;
+	background-color: grey;
+	color: white;
+}
+.btn-purple {
+	background-color: #48c0c0;
+}
+.btn-brown {
+	background-color: #FF5733;
+}
+.btn-primary {
+	background-color: #007bff;
+}
